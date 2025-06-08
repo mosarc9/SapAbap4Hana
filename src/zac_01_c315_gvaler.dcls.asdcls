@@ -1,0 +1,5 @@
+@EndUserText.label: 'Full Access'
+@MappingRole: true
+define role ZAC_01_C315_GVALER {
+    grant select on z22_c315_gvaler;                             
+}

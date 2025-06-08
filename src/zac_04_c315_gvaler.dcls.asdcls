@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control - Aspect PFCG'
+@MappingRole: true
+define role ZAC_04_C315_GVALER {
+    grant select on Z24_C315_GVALER
+          where (Carrid) = aspect pfcg_auth( S_CARRID, carrid, actvt = '03' );
+}

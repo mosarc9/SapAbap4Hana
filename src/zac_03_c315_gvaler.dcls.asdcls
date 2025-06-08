@@ -1,0 +1,7 @@
+@EndUserText.label: 'Inheritance'
+@MappingRole: true
+define role ZAC_03_C315_GVALER {
+    grant select on Z23_C315_GVALER inherit ZAC_02_C315_GVALER
+          or Carrid = 'LH';
+                        
+}

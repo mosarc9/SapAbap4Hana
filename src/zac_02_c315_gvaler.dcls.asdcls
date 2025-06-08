@@ -1,0 +1,5 @@
+@EndUserText.label: 'Literal Access'
+@MappingRole: true
+define role ZAC_02_C315_GVALER {
+    grant select on z23_c315_gvaler where Carrid = 'AA';                       
+}
